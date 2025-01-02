@@ -274,7 +274,7 @@ section {
 .research-container p,
 .research-container ul {
    font-size: 1.25rem; /* Adjust text size */
-   color: #555; /* Adjust text color */
+   color: #fff; /* Adjust text color */
    margin: 0 0 1rem 0; /* Space between paragraphs */
 }
 
