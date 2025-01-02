@@ -198,32 +198,57 @@ section {
    background-color: #555;
 }
 
+
+/* General Styles */
 .home-container {
    display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh; /* Full height for centering */
-}
-
-.home-content {
-   display: flex;
-   align-items: center; /* Align image and text vertically */
-   gap: 20px; /* Add space between image and text */
+   flex-direction: column; /* Default: Stack items vertically */
+   align-items: center; /* Center items horizontally */
+   text-align: center; /* Center-align text */
+   padding: 20px; /* Add padding for spacing */
+   gap: 20px; /* Space between image and text */
 }
 
 .profile-img {
-   width: 150px; /* Adjust the size of the image */
+   width: 250px; /* Adjust image size */
    height: auto; /* Maintain aspect ratio */
-   border-radius: 50%; /* Optional: make the image circular */
+   border-radius: 10px; /* Optional: Rounded corners */
 }
 
 .home-text h1 {
-   font-size: 2rem; /* Adjust font size */
-   margin-bottom: 0.5rem;
+   font-size: 2.5rem; /* Adjust heading size */
+   margin-bottom: 1rem;
 }
 
 .home-text p {
-   font-size: 1.25rem; /* Adjust font size */
-   color: #555; /* Optional: text color */
+   font-size: 1.25rem; /* Adjust paragraph size */
+   color: #333; /* Text color */
 }
+
+/* Styles for larger screens */
+@media (min-width: 768px) {
+   .home-container {
+      flex-direction: row; /* Arrange items side-by-side */
+      justify-content: center; /* Center align horizontally */
+      text-align: left; /* Align text to the left */
+   }
+
+   .profile-img {
+      width: 300px; /* Increase image size for larger screens */
+      margin-right: 20px; /* Add space between image and text */
+   }
+
+   .home-text {
+      max-width: 600px; /* Limit text width */
+   }
+
+   .home-text h1 {
+      font-size: 3rem; /* Larger heading size */
+   }
+
+   .home-text p {
+      font-size: 1.5rem; /* Larger paragraph size */
+   }
+}
+
 
