@@ -226,12 +226,12 @@ section {
 }
 
 /* Styles for larger screens */
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
    .home-container {
       flex-direction: row; /* Arrange items side-by-side */
       justify-content: center; /* Center align horizontally */
       text-align: left; /* Align text to the left */
-   }*/
+   }
 
    .profile-img {
       width: 300px; /* Increase image size for larger screens */
