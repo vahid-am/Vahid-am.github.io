@@ -252,3 +252,39 @@ section {
 }
 
 
+/* Research Container Styles */
+.research-container {
+   text-align: right; /* Align text to the right */
+   display: flex;
+   flex-direction: column; /* Stack items vertically */
+   justify-content: center; /* Center vertically */
+   align-items: flex-end; /* Align content to the right */
+   height: 100vh; /* Full height for centering */
+   padding: 20px; /* Add padding for spacing */
+   margin-right: auto; /* Ensure content is right-aligned in the viewport */
+   box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.research-container h2 {
+   font-size: 2.5rem; /* Adjust heading size */
+   margin-bottom: 1rem;
+   color: #333; /* Adjust heading color if needed */
+}
+
+.research-container p,
+.research-container ul {
+   font-size: 1.25rem; /* Adjust text size */
+   color: #555; /* Adjust text color */
+   margin: 0 0 1rem 0; /* Space between paragraphs */
+}
+
+.research-container ul {
+   list-style-position: inside; /* Ensure list items are aligned properly */
+   padding: 0; /* Remove default padding */
+   text-align: right; /* Align list text to the right */
+}
+
+
+
+
+
