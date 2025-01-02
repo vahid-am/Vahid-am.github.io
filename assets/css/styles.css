@@ -197,3 +197,33 @@ section {
 .scroll-up-btn:hover {
    background-color: #555;
 }
+
+.home-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; /* Full height for centering */
+}
+
+.home-content {
+   display: flex;
+   align-items: center; /* Align image and text vertically */
+   gap: 20px; /* Add space between image and text */
+}
+
+.profile-img {
+   width: 150px; /* Adjust the size of the image */
+   height: auto; /* Maintain aspect ratio */
+   border-radius: 50%; /* Optional: make the image circular */
+}
+
+.home-text h1 {
+   font-size: 2rem; /* Adjust font size */
+   margin-bottom: 0.5rem;
+}
+
+.home-text p {
+   font-size: 1.25rem; /* Adjust font size */
+   color: #555; /* Optional: text color */
+}
+
