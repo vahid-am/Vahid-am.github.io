@@ -281,7 +281,7 @@ section {
 .research-container ul {
    list-style-position: inside; /* Ensure list items are aligned properly */
    padding: 0; /* Remove default padding */
-   text-align: right; /* Align list text to the right */
+   text-align: left; /* Align list text to the right */
 }
 
 
