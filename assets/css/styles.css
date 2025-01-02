@@ -254,14 +254,14 @@ section {
 
 /* Research Container Styles */
 .research-container {
-   text-align: right; /* Align text to the right */
+   text-align: left; /* Align text to the right */
    display: flex;
    flex-direction: column; /* Stack items vertically */
    justify-content: center; /* Center vertically */
    align-items: flex-end; /* Align content to the right */
    height: 100vh; /* Full height for centering */
    padding: 20px; /* Add padding for spacing */
-   margin-right: auto; /* Ensure content is right-aligned in the viewport */
+   margin-left: auto; /* Ensure content is right-aligned in the viewport */
    box-sizing: border-box; /* Include padding in width calculations */
 }
 
