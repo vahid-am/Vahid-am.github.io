@@ -268,7 +268,7 @@ section {
 .research-container h2 {
    font-size: 2.5rem; /* Adjust heading size */
    margin-bottom: 1rem;
-   color: #333; /* Adjust heading color if needed */
+   color: #fff; /* Adjust heading color if needed */
 }
 
 .research-container p,
