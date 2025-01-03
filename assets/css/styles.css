@@ -267,7 +267,7 @@ section {
     padding: 1rem;
 }
 .left-column img {
-    width: 100%; /* Ensures the image scales to fit within the column */
+    width: 80%; /* Ensures the image scales to fit within the column */
     height: auto; /* Maintains the aspect ratio */
     margin-bottom: 1rem; /* Adds spacing between images */
     object-fit: cover; /* Ensures the image looks good within its container */
@@ -287,7 +287,7 @@ section {
         max-width: 100%;
     }
     .left-column img {
-        width: 100%; /* Ensures images scale appropriately for smaller screens */
+        width: 80%; /* Ensures images scale appropriately for smaller screens */
     }
 }
 
