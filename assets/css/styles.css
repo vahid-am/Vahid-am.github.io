@@ -273,6 +273,14 @@ section {
     object-fit: cover; /* Ensures the image looks good within its container */
     border-radius: 8px; /* Optional: Adds rounded corners for better aesthetics */
 }
+
+.right-column img {
+    width: 100%; /* Ensures the image scales to fit within the column */
+    height: auto; /* Maintains the aspect ratio */
+    margin-bottom: 1rem; /* Adds spacing between images */
+    object-fit: cover; /* Ensures the image looks good within its container */
+    border-radius: 8px; /* Optional: Adds rounded corners for better aesthetics */
+}
 .middle-column h2,
 .right-column h3 {
     margin-bottom: 1rem;
