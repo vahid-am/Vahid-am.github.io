@@ -266,23 +266,13 @@ section {
     flex: 1;
     padding: 1rem;
 }
-.left-column img {
-    width: 80%; /* Ensures the image scales to fit within the column */
+.left-column img, .right-column img {
+    width: 100%; /* Ensures the image fits the column's width */
     height: auto; /* Maintains the aspect ratio */
     margin-bottom: 1rem; /* Adds spacing between images */
-    object-fit: cover; /* Ensures the image looks good within its container */
-    border-radius: 8px; /* Optional: Adds rounded corners for better aesthetics */
+    object-fit: cover; /* Ensures the image is cropped nicely if needed */
 }
-
-.right-column img {
-    width: 100%; /* Ensures the image scales to fit within the column */
-    height: auto; /* Maintains the aspect ratio */
-    margin-bottom: 1rem; /* Adds spacing between images */
-    object-fit: cover; /* Ensures the image looks good within its container */
-    border-radius: 8px; /* Optional: Adds rounded corners for better aesthetics */
-}
-.middle-column h2,
-.right-column h3 {
+.middle-column h2 {
     margin-bottom: 1rem;
 }
 
@@ -294,11 +284,10 @@ section {
     .column {
         max-width: 100%;
     }
-    .left-column img {
-        width: 80%; /* Ensures images scale appropriately for smaller screens */
+    .left-column img, .right-column img {
+        margin-bottom: 0.5rem; /* Reduces spacing for smaller screens */
     }
 }
-
 .research-image:hover {
    transform: scale(1.05);
    transition: transform 0.3s ease;
