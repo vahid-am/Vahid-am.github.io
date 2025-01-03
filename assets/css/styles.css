@@ -264,7 +264,6 @@ section {
 .left-column {
    flex: 2;
    padding: 20px;
-   background-color: #fff;
    border-right: 2px solid #ddd;
 }
 
