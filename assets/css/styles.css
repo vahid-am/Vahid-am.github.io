@@ -267,7 +267,7 @@ section {
     padding: 1rem;
 }
 .left-column img, .right-column img {
-    width: 100%; /* Ensures the image fits the column's width */
+    width: 80%; /* Ensures the image fits the column's width */
     height: auto; /* Maintains the aspect ratio */
     margin-bottom: 1rem; /* Adds spacing between images */
     object-fit: cover; /* Ensures the image is cropped nicely if needed */
