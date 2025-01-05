@@ -318,14 +318,12 @@ section {
 /* Projects Section */
 .projects {
     height: 100%;
-    background-color: #f9f9f9;
-    padding: 60px 20px;
-}
-
-.projects-container {
     background-color: #222;
     color: #fff;
     padding: 120px 20px 60px;
+}
+
+.projects-container {
     max-width: 800px;
     margin: 0 auto;
     text-align: left;
