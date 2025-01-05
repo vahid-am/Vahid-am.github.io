@@ -317,6 +317,7 @@ section {
 
 /* Projects Section */
 .projects {
+    height: 100%;
     background-color: #f9f9f9;
     padding: 60px 20px;
 }
