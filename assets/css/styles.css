@@ -312,87 +312,71 @@ section {
    transition: transform 0.3s ease;
 }
 
-
-/* Project Section Enhancements */
-.projects-wrapper {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid */
-   gap: 20px;
-   padding: 20px;
-   max-width: 1200px;
-   margin: 0 auto;
+/* Projects Section */
+.projects {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
 }
 
-.project-card {
-   background-color: #fff;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   border-radius: 10px;
-   padding: 20px;
-   text-align: center;
-   transition: transform 0.3s, box-shadow 0.3s;
+.projects-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
 }
 
-.project-card:hover {
-   transform: translateY(-10px); /* Elevation effect */
-   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+.projects-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center; /* Optional for centering */
+    color: #333;
 }
 
-.project-card h3 {
-   color: #007bff;
-   font-size: 1.5rem;
+.projects-list {
+    list-style-type: disc;
+    padding-left: 40px;
 }
 
-.project-card p {
-   color: #555;
-   margin: 10px 0;
+.projects-list li {
+    margin-bottom: 20px;
 }
 
-.project-card a {
-   display: inline-block;
-   margin-top: 10px;
-   color: #fff;
-   background-color: #007bff;
-   padding: 10px 20px;
-   border-radius: 5px;
-   text-transform: uppercase;
-   font-size: 0.9rem;
-   transition: background-color 0.3s;
+.projects-list h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #007bff; /* Optional color for project titles */
 }
 
-.project-card a:hover {
-   background-color: #0056b3;
+.projects-list p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
 }
 
-.project-icon {
-   font-size: 3rem;
-   color: #007bff;
-   margin-bottom: 10px;
+.projects-list a {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: underline;
 }
 
-/* Media Queries */
+.projects-list a:hover {
+    text-decoration: none;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
-   .projects-wrapper {
-      padding: 10px;
-      gap: 15px;
-   }
+    .projects-container {
+        padding: 10px;
+    }
 
-   .project-card {
-      padding: 15px;
-   }
+    .projects-title {
+        font-size: 24px;
+    }
 
-   .project-card h3 {
-      font-size: 1.25rem;
-   }
-
-   .project-card p {
-      font-size: 0.9rem;
-   }
-
-   .project-card a {
-      padding: 8px 16px;
-      font-size: 0.8rem;
-   }
+    .projects-list li {
+        margin-bottom: 15px;
+    }
 }
+
 
 
 
