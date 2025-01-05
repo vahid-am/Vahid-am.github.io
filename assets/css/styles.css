@@ -85,6 +85,7 @@ section {
 /* Home Section */
 .home {
    background-color: #222;
+   height: 100%;
    color: #fff;
    text-align: center;
    padding: 120px 20px 60px;
