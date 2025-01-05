@@ -323,6 +323,9 @@ section {
 }
 
 .projects-container {
+    background-color: #222;
+    color: #fff;
+    padding: 120px 20px 60px;
     max-width: 800px;
     margin: 0 auto;
     text-align: left;
