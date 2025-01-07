@@ -281,7 +281,7 @@ section {
 
 .left-column img,
 .right-column img {
-    width: 80%; /* Ensure images fit the smaller columns */
+    width: 100%; /* Ensure images fit the smaller columns */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 1rem; /* Adds spacing between images */
     object-fit: cover; /* Ensures the image is cropped nicely if needed */
