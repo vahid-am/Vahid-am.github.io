@@ -291,6 +291,7 @@ section {
 .middle-column p,
 .middle-column ul {
     max-width: 100%; /* Ensure the text content fills the larger middle column */
+    text-align: center;
 }
 
 /* Responsive Design */
