@@ -295,6 +295,7 @@ section {
 
 .middle-column h2 {
     text-align: center;
+    margin-top: 0px;
 }
 
 /* Responsive Design */
