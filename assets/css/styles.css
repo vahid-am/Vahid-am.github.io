@@ -223,10 +223,29 @@ section {
    margin-bottom: 1rem;
 }
 
-.home-text p {
-   font-size: 1.25rem; /* Adjust paragraph size */
-   color: #fff; /* Text color */
+
+
+/* Styles for labels and details */
+.label {
+   font-size: 1.5rem; /* Make the labels bigger */
+   font-weight: bold;
+   color: #ffcc00; /* Optional: Add a highlight color */
 }
+
+.detail {
+   font-size: 1rem; /* Keep details smaller */
+   color: #ccc; /* Subtle color for details */
+   line-height: 1.6; /* Improve readability */
+}
+
+/* Adjust spacing for better layout */
+.home-text p {
+   margin: 10px 0; /* Add spacing between paragraphs */
+   display: flex; /* Align label and detail better */
+   flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+   gap: 5px; /* Small gap between label and detail */
+}
+
 
 /* Styles for larger screens */
 @media (min-width: 768px) {
