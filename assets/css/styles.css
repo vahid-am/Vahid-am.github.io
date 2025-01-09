@@ -229,7 +229,7 @@ section {
 .label {
    font-size: 1.5rem; /* Make the labels bigger */
    font-weight: bold;
-   color: #ffcc00; /* Optional: Add a highlight color */
+   color: #ccc; /* Optional: Add a highlight color */
 }
 
 .detail {
